@@ -3,7 +3,7 @@ const app = express();
 
 // Route for Root
 app.get('/', (req, res) => {
-    res.send({ Development: 'In Progress...' });
+    res.send({ Development: 'In Progress...', Test: 'Online.' });
 });
 
 // Grab PORT# from Runtime Environment or Hardcode for localhost:5000
